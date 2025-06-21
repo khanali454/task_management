@@ -29,8 +29,8 @@ Ensure the following are installed on your system:
 1. **Clone the Repository**
 
 ```bash
-git clone https://github.com/khanali454/assessment.git
-cd assessment
+git clone https://github.com/khanali454/task_management.git
+cd task_management
 ```
 
 2. **Install Server Dependencies**
@@ -59,6 +59,15 @@ DB_NAME=""
 ```
 
 > Add your database credentials.
+
+
+In the `/client` directory, create a `.env` file or rename .env.example to .env:
+
+```
+VITE_API_URL="your_api_base_url"
+```
+
+> Replace with your api base url.
 
 ---
 
