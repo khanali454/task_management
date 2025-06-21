@@ -1,0 +1,42 @@
+# --- Global Node ---
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.env
+.DS_Store
+
+# --- Logs ---
+logs
+*.log
+log.txt
+debug.log
+
+# --- React Build Files ---
+client/build/
+
+# --- OS Specific ---
+Thumbs.db
+*.swp
+
+# --- IDE Files ---
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# --- Environment Files ---
+server/.env
+client/.env
+
+# --- Optional: Coverage/Test Reports ---
+coverage/
+*.lcov
+
+# --- Optional: Parcel/Webpack Cache ---
+.cache/
+dist/
+
+# --- Optional: Next.js or similar ---
+.next/
+out/
