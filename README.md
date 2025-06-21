@@ -65,9 +65,9 @@ npm install
 
 1. Open MySQL Workbench
 2. Run:
-   ```sql
+```sql
    CREATE DATABASE tasks_db CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
-````
+```
 
 3. Go to **File → Open SQL Script** and open `tasks_db.sql`
 4. Set `tasks_db` as the default schema
