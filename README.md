@@ -63,18 +63,18 @@ npm install
 
 ### 🔹 Using MySQL Workbench
 
-1. Open MySQL Workbench
-2. Run:
-```sql
-   CREATE DATABASE tasks_db CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
-```
+    1. Open MySQL Workbench
+    2. Run:
+    ```sql
+    CREATE DATABASE tasks_db CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
+    ```
+    3. Go to **File → Open SQL Script** and open `tasks_db.sql`
+    4. Set `tasks_db` as the default schema
+    5. Click the ⚡️ button to execute the script
 
-3. Go to **File → Open SQL Script** and open `tasks_db.sql`
-4. Set `tasks_db` as the default schema
-5. Click the ⚡️ button to execute the script
 
+### 🔹 Setup Environment Variables
 
-4. **Setup Environment Variables**
 
 In the `/server` directory, create a `.env` file or rename .env.example to .env:
 
@@ -117,6 +117,7 @@ npm run dev
 The app will be running at:
 🔗 Frontend: `http://localhost:5173` || or at any available port
 🔗 Backend: `http://localhost:3000`
+
 
 ---
 
