@@ -47,6 +47,33 @@ cd client
 npm install
 ```
 
+
+
+## 📥 Database Setup - Importing `tasks_db.sql` into MySQL
+
+### 🔹 Using phpMyAdmin
+
+1. Visit `http://localhost/phpmyadmin`
+2. Click on **Databases**
+3. Create a new database named `tasks_db`
+4. Select the `tasks_db` database
+5. Go to the **Import** tab
+6. Click **Choose File** and select `tasks_db.sql`
+7. Click **Go**
+
+### 🔹 Using MySQL Workbench
+
+1. Open MySQL Workbench
+2. Run:
+   ```sql
+   CREATE DATABASE tasks_db CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
+````
+
+3. Go to **File → Open SQL Script** and open `tasks_db.sql`
+4. Set `tasks_db` as the default schema
+5. Click the ⚡️ button to execute the script
+
+
 4. **Setup Environment Variables**
 
 In the `/server` directory, create a `.env` file or rename .env.example to .env:
